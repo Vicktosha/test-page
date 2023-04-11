@@ -1,0 +1,37 @@
+@media screen and (max-width: 575px){
+    .container {
+        width: 320px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header__inner {
+        padding: 20px;
+    }
+    .logo__text{
+        font-size: 25px;
+    }
+    .tagline__text {
+        font-size: 31px;
+    }
+    .promo__inner {
+        padding-top: 103px;
+    }
+    .title__text{
+        font-size: 20px;
+    }
+    .select-selected-bottom-rounded{
+        width: 300px;
+    }
+    .select-items{
+        width: 300px;
+    }
+    .progress-container .slider{
+        width: 300px;
+    }
+    .progress-container {
+        margin-top: 10px;
+    }
+    #demo {
+        top: -16px;
+    }
+}

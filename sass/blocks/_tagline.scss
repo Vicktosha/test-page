@@ -1,0 +1,15 @@
+.tagline{
+    &__text{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        text-transform: uppercase;
+
+        color: $color-1;
+        &:nth-child(2){
+            color: $color-6;
+        }
+    }
+}

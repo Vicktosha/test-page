@@ -1,0 +1,16 @@
+.header{
+    background: rgba(16, 16, 29, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+    }
+}
+.hamburger {
+    display: none;
+  }
+

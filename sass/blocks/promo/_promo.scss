@@ -1,0 +1,16 @@
+.promo {
+    background: url(../../../img/main-bg.png) center / cover no-repeat;
+    
+    &__inner {
+        padding-top: 203px;
+        padding-bottom: 202px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 850px;
+    }
+    &__button-wrap{
+        display: flex;
+        gap: 30px;
+    }
+}

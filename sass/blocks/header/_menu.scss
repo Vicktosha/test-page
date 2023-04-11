@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    &__item {
+        display: flex;
+        align-items: center;
+        text-align: right;
+        text-transform: uppercase;
+        margin-right: 60px;
+        &:nth-last-child(1){
+            margin-right: 0;
+        }
+    }
+    &__link {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+
+        display: flex;
+        align-items: center;
+        text-align: right;
+        text-transform: uppercase;
+
+        color: $color-2;
+        text-decoration: none;
+        &:hover{
+            color: $color-1;
+            scale: 1.02;
+        }
+    }
+}

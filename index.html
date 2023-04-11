@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employcity-test</title>
+    <meta name="title" content="Тест">
+    <meta name="description" content="Тестовое задание">
+	
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="sass/style.css">
+    
+</head>
+<body>
+
+   <header class="header">
+      <div class="container">
+         <div class="header__inner">
+            <div class="logo">
+               <a href="#" class="logo__link">
+                  <span class="logo__text">
+                     LoremIpsum.
+                  </span>
+                  <span class="logo__text">
+                     Net
+                  </span>
+               </a>
+            </div>
+            <ul class="menu">
+               <li class="menu__item"><a href="#" class="menu__link">БИЗНЕС</a></li>
+               <li class="menu__item"><a href="#" class="menu__link">О НАС</a></li>
+               <li class="menu__item"><a href="#" class="menu__link">ЦЕНЫ</a></li>
+               <li class="menu__item"><a href="#checkout" class="menu__link">ОФОРМИТЬ ЗАКАЗ</a></li>
+            </ul>
+            <div class="hamburger">
+               <span></span>
+               <span></span>
+               <span></span>
+           </div>
+         </div>
+      </div>
+   </header>
+
+   <section class="promo">
+      <div class="container">
+         <div class="promo__inner">
+            <div class="tagline">
+               <h1>
+                  <span class="tagline__text">Lorem ipsum</span>
+                  <span class="tagline__text">dolor sit<br>amet consectetur</span>
+                  <span class="tagline__text">adipiscing</span>
+               </h1>
+            </div>
+            <div class="description">
+               <span class="description__title">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus!
+               </span>
+               <ul class="description__list">
+                  <li class="description__list-item">
+                     Totam rem aperiam eaque ipsa
+                  </li>
+                  <li class="description__list-item">
+                     Sit voluptatem accusantium doloremque laudantium
+                  </li>
+                  <li class="description__list-item">
+                     Sed ut perspiciatis, unde omnis iste natus error
+                  </li>
+               </ul>
+            </div>
+            <div class="promo__button-wrap">
+               <button class="button">ЗАКАЗАТЬ</button>
+               <button class="button button_color-2">ПОДРОБНЕЕ</button>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <article class="order" id="checkout">
+      <div class="container">
+         <div class="order__inner">
+            <div class="title">
+               <span class="title__text">
+                  Оформление
+               </span>
+               <span class="title__text">
+                  Заказа
+               </span>
+            </div>
+            <div class="subtitle">
+               Перед заполнением формы ознакомьтесь с нашей схемой работы!
+            </div>
+            <div class="scheme-wrap">
+               <div class="scheme">
+                  <div class="scheme__item">
+                     <div class="scheme__round">
+                        <div class="icon">
+                           <img src="icons/search.png" alt="пункт">
+                        </div>
+                     </div>
+                     <div class="subtitle">Lorem ipsum dolor sit amet</div>
+                  </div>
+                  <div class="scheme__item">
+                     <div class="scheme__round">
+                        <div class="icon">
+                           <img src="icons/percent.png" alt="пункт">
+                        </div>
+                     </div>
+                     <div class="subtitle">Сonsecteturadipiscing elit</div>
+                  </div>
+                  <div class="scheme__item">
+                     <div class="scheme__round">
+                        <div class="icon">
+                           <img src="icons/file.png" alt="пункт">
+                        </div>
+                     </div>
+                     <div class="subtitle">Sed do eiusmod tempor</div>
+                  </div>
+                  <div class="scheme__item">
+                     <div class="scheme__round">
+                        <div class="icon">
+                           <img src="icons/mail.png" alt="пункт">
+                        </div>
+                     </div>
+                     <div class="subtitle">Esse cillum dolore
+                        eu fugiat</div>
+                  </div>
+                  <div class="scheme__item">
+                     <div class="scheme__round">
+                        <div class="icon">
+                           <img src="icons/coins.png" alt="пункт">
+                        </div>
+                     </div>
+                     <div class="subtitle">Excepteur sint occaecat cupidatat non proident</div>
+                  </div>
+               </div>
+            </div>
+            <form class="form">
+               <div class="form__inner">
+                  <div class="custom-select">
+                     <select>
+                       <option value="0">Выберите тип системы</option>
+                       <option value="1">Система 1</option>
+                       <option value="2">Система 2</option>
+                       <option value="3">Система 3</option>
+                       <option value="4">Система 4</option>
+                       <option value="5">Система 5</option>
+                       <option value="6">Система 6</option>
+                       <option value="7">Система 7</option>
+                       <option value="8">Система 8</option>
+                       <option value="9">Система 9</option>
+                     </select>
+                   </div>
+
+                     <input class="input" name="email" type="email" placeholder="Ваш e-mail" required>
+
+
+                     <input class="input" name="name" type="text" placeholder="Ваше имя" required>
+
+                  <div class="progress">
+                        <p class="progress-text">Sed ut perspiciatis, unde omnis iste natus</p>
+                        <span id="demo"></span>
+                        <div class="progress-container">
+                        <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                        </div>
+                  </div>
+                  <div class="input-wrapper">
+                     <input class="input input__file" name="file" type="file" id="input__file" multiple>
+                     <label for="input__file" class="input__file-button">
+                        <span class="input__file-icon-wrapper"><img class="input__file-icon" src="icons/fileSend.png" alt="Прикрепить файл"></span>
+                        <span class="input__file-button-text">ПРИКРЕПИТЬ ФАЙЛ</span>
+                     </label>
+                  </div>
+
+                  <button class="button button_color-1 button_form">ОТПРАВИТЬ</button>
+
+               </div>
+            </form>
+         </div>
+      </div>
+   </article>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__inner">
+            <div class="footer__item footer__item_rights">
+               © 2018 «LoremIpsum.net» Все права защищены.
+            </div>
+
+            <div class="footer__item">
+               <img src="icons/qiwi.png" alt="платежная система" class="footer__icon">
+               <span class="footer__item-text">
+                  Qiwi wallet
+               </span>
+            </div>
+            <div class="footer__item">
+               <img src="icons/yandex-money.png" alt="платежная система" class="footer__icon">
+               <span class="footer__item-text">
+                  Yandex Money
+               </span>
+            </div>
+            <div class="footer__item">
+               <img src="icons/web-money.png" alt="платежная система" class="footer__icon">
+               <span class="footer__item-text">
+                  Web Money
+               </span>
+            </div>
+            
+            <div class="footer__item">
+               <img src="icons/mail-contact.png" alt="эл.почта" class="footer__icon">
+               <a href="mailto:info@ipsum228.com" class="footer__item-text">
+                  info@ipsum228.com
+               </a>
+            </div>
+            <div class="footer__item">
+               <img src="icons/vk-contact.png" alt="Вконтакте" class="footer__icon">
+               <a href="https://vk.com/" class="footer__item-text">
+                  Мы вконтакте
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+<!-- 
+<form action="courseselector.dll" method="get">
+    <p>Which course would you like to watch today?
+    <p><label>Course:
+          <select name="c">
+             <optgroup label="8.01 Physics I: Classical Mechanics">
+                <option value="8.01.1">Lecture 01: Powers of Ten
+                <option value="8.01.2">Lecture 02: 1D Kinematics
+                <option value="8.01.3">Lecture 03: Vectors
+             <optgroup label="8.02 Electricity and Magnetism">
+                <option value="8.02.1">Lecture 01: What holds our world together?
+                <option value="8.02.2">Lecture 02: Electric Field
+                <option value="8.02.3">Lecture 03: Electric Flux
+             <optgroup label="8.03 Physics III: Vibrations and Waves">
+                <option value="8.03.1">Lecture 01: Periodic Phenomenon
+                <option value="8.03.2">Lecture 02: Beats
+                <option value="8.03.3">Lecture 03: Forced Oscillations with Damping
+          </select>
+       </label>
+    <p><input type=submit value="▶ Play">
+ </form> -->

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import 'libs/normalize.css';
+@import 'base/variables';
+@import 'base/fonts';
+
+* {
+  transition: 0.3s all;
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* input {
+  outline: none;
+}
+* button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+* button {
+  border: none;
+}
+* a:hover {
+  transform: scale(1.05);
+}
+.container {
+  width: 1199px;
+  margin: 0 auto;
+  height: 100%
+}
+
+@import 'blocks/header/header';
+@import 'blocks/header/logo';
+@import 'blocks/header/menu';
+@import 'blocks/promo/promo';
+@import 'blocks/button';
+@import 'blocks/tagline';
+@import 'blocks/description';
+@import 'blocks/order/order';
+@import 'blocks/title';
+@import 'blocks/subtitle';
+@import 'blocks/scheme';
+@import 'blocks/form';
+@import 'blocks/progress';
+@import 'blocks/footer/footer';
+@import 'blocks/select';
+@import 'blocks/media/max-width:1200';
+@import 'blocks/media/max-width:1015';
+@import 'blocks/media/max-width:767';
+@import 'blocks/media/max-width:575';
